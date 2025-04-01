@@ -6,7 +6,7 @@ import Navbar from "@/app/components/Navbar";
 import ScrollAnimation from "@/app/components/ScrollAnimation";
 import Card from "@/app/components/Card";
 import CallToAction from "@/app/components/CallToAction";
-// import FloatingText from "@/app/components/FloatingText";
+import FloatingText from "@/app/components/FloatingText";
 
 export default function Home() {
   return (
@@ -23,10 +23,10 @@ export default function Home() {
         <Card title="Card 2" description="Smooth and interactive animations." />
       </div>
       <CallToAction />
-      {/* <div className="center">
+      <div className="center">
         <h2 className="text-4xl font-bold mb-6">Cool 3D Text</h2>
         <FloatingText />
-      </div> */}
+      </div>
     </main>
   );
 }
